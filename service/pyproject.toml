@@ -1,0 +1,32 @@
+[project]
+name = "plugin-service"
+version = "1.0.0"
+description = "Plugin Service for ..."
+keywords = ["wizard", "plugin"]
+license = "MIT"
+authors = [
+    { name = "Marek Suchánek", email = "marek.suchanek@ds-wizard.org" }
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: FastAPI",
+    "License :: OSI Approved :: MIT",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP",
+]
+requires-python = ">=3.13, <4"
+dependencies = [
+    "fastapi >=0.120, <1.0",
+]
+
+[project.urls]
+Homepage = "https://ds-wizard.org"
+
+[build-system]
+requires = ["uv_build>=0.9.25,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "plugin_service"
+module-root = "src"
