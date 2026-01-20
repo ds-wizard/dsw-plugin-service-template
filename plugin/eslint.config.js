@@ -16,6 +16,7 @@ export default [
             parser: tsParser,
             globals: {
                 ...globals.browser,
+                __API_URL__: 'readonly',
             },
         },
         plugins: {
