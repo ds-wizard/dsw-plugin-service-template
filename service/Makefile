@@ -21,3 +21,7 @@ requirements:
 .PHONY: dev
 dev:
 	uv run uvicorn plugin_service:create_app --reload
+
+.PHONY: build
+build:
+	uv build

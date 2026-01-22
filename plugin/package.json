@@ -12,6 +12,7 @@
     "build:watch": "vite build --watch --mode development",
     "dev": "concurrently -k \"npm run build:watch\" \"npm run serve:dist\"",
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json}\" && eslint src --fix",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,json}\"",
     "lint": "eslint src",
     "serve:dist": "vite preview --strictPort --port 4173",
     "typecheck": "tsc --noEmit"
