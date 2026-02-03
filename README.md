@@ -1,4 +1,4 @@
-# DSW Plugin Template
+# DSW Plugin Service Template
 
 Template repository to create DSW plugins with Python service for backend logic.
 
@@ -65,6 +65,10 @@ Update the rest of the readme and delete the template instructions. Update the l
 # Plugin Name
 
 _Plugin description._
+
+## How to Install
+
+See the [Plugins](https://guide.ds-wizard.org/en/latest/more/self-hosted-dsw/configuration/plugins.html) page in the DSW Guide for instructions on how to install the plugin.
 
 ## Changelog
 
