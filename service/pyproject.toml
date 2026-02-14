@@ -44,7 +44,8 @@ include = ["src/**/*.py"]
 select = ["ALL"]
 ignore = [
     "D",
-    "CPY"
+    "CPY",
+    "PGH003",
 ]
 preview = true
 
