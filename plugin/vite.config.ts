@@ -18,6 +18,10 @@ export default defineConfig(({ mode }) => {
             },
         },
 
+        preview: {
+            cors: true,
+        },
+
         // Ensure the bundle works in a plain browser host (no Node "process")
         define: {
             '__API_URL__': JSON.stringify(
