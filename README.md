@@ -66,6 +66,8 @@ Update the rest of the readme and delete the template instructions. Update the l
 
 _Plugin description._
 
+Plugin UUID: `<UUID>`
+
 ## How to Install
 
 See the [Plugins](https://guide.ds-wizard.org/en/latest/more/self-hosted-dsw/configuration/plugins.html) page in the DSW Guide for instructions on how to install the plugin.
