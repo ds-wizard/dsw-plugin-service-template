@@ -25,3 +25,7 @@ dev:
 .PHONY: build
 build:
 	uv build
+
+.PHONY: dist
+dist: build
+	uv dist
